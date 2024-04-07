@@ -25,7 +25,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE")
 # f'sqlite:///{location}'
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
-
+# edited file
 # FORM CREATION
 app.config['SECRET_KEY'] = "Heyyo"
 class NamerForm(FlaskForm):
